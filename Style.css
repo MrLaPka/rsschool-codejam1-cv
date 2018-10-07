@@ -1,0 +1,87 @@
+﻿.h1_class {
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.body_class {
+    width: 1024px;
+    margin: auto;
+    background: url(Contact-us-background[1].jpg) no-repeat;
+    background-size: cover;
+}
+
+.img_class {
+    width: 22em;
+    height: 28em;
+    float: left;
+    margin: 1.5em;
+    display: inline-block;
+}
+
+.nav_class {
+    text-align: center;
+    margin: 1.5em;
+    z-index: 1000;
+}
+
+.li_class{
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+.a_to_li {
+    color: brown;
+}
+
+.a_to_li:hover {
+    color: darkviolet;
+}
+
+.section_class {
+    display: inline-block;
+    margin-top: 1.5em;
+    font-size: 1.5em;
+    font-family: Helvetica;
+    margin-right: 2em;
+    border-bottom: 5px solid blue;
+}
+
+.span_class_info {
+    font-family: Garamond;
+    padding-right: 7em;
+}
+
+.article_class {
+    border-bottom: 1px solid green;
+}
+
+.h4_class,
+.div_class {
+    display: inline-block;
+}
+
+.footer_class {
+    margin-top: 2.5em;
+    margin-bottom: 1.5em;
+    font-weight: bold;
+    font-family: 'Proxy 1';
+}
+
+.div_class{
+    margin-right: 2em;
+}
+.a_class_vk{
+    color: dodgerblue;
+}
+
+.a_class_vk:hover{
+    color: mediumvioletred;
+}
+
+.a_class_git {
+    color: forestgreen;
+}
+
+ .a_class_git:hover {
+        color: black;
+}
