@@ -1,87 +1,130 @@
-﻿.h1_class {
-    text-align: center;
-    font-family: Helvetica;
+﻿@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+
+a{
+    text-decoration: none;
 }
 
-.body_class {
-    width: 1024px;
+p{
+    font-size: 2em;
+}
+
+header{
+    background: black;
+}
+
+
+body{
+    width: 100%;
     margin: auto;
     background: url(Contact-us-background[1].jpg) no-repeat;
     background-size: cover;
+    font-family: "Montserrat","Arial",sans-serif;
 }
 
-.img_class {
-    width: 22em;
-    height: 28em;
+img {
+    width: 10em;
+    height: 12em;
     float: left;
-    margin: 1.5em;
+    border-radius: 100%;
     display: inline-block;
 }
 
-.nav_class {
+ul {
     text-align: center;
-    margin: 1.5em;
+    width: 100%;
+    margin-top: 13em;
     z-index: 1000;
+    background: black;
+    height: 4em;
+    position: fixed;
 }
 
-.li_class{
-    display: inline-block;
-    margin-right: 1.5em;
-}
-
-.a_to_li {
-    color: brown;
-}
-
-.a_to_li:hover {
-    color: darkviolet;
-}
-
-.section_class {
-    display: inline-block;
-    margin-top: 1.5em;
-    font-size: 1.5em;
-    font-family: Helvetica;
-    margin-right: 2em;
-    border-bottom: 5px solid blue;
-}
-
-.span_class_info {
-    font-family: Garamond;
+span {
     padding-right: 7em;
 }
 
-.article_class {
-    border-bottom: 1px solid green;
+footer{
+    width: 100%;
+    height: 3em;
+    top:3em;
+    margin: auto;
+    font-weight: bold;
 }
 
-.h4_class,
-.div_class {
+.menu{
+    display: inline-block;
+    margin-right: 1.5em;
+    margin-top: 2em; 
+}
+
+.linkToAnchor {
+    color: white;
+    font-size: 1.5em;
+}
+
+.linkToAnchor:hover {
+    color: darkviolet;
+}
+
+.info {
+    display: inline-block;
+    margin-top: 3.5em;
+    font-size: 1.5em;
+    margin-right: 2em;
+}
+
+.projectLink{
+font-size: 1.5em;
+color: darkgreen;
+}
+
+h4,
+.linkToAuthor {
     display: inline-block;
 }
 
-.footer_class {
-    margin-top: 2.5em;
-    margin-bottom: 1.5em;
-    font-weight: bold;
-    font-family: 'Proxy 1';
-}
 
-.div_class{
+.linkToAuthor{
     margin-right: 2em;
 }
-.a_class_vk{
-    color: dodgerblue;
+
+.link {
+    color: black;
 }
 
-.a_class_vk:hover{
+.link:hover, .projectLink:hover {
     color: mediumvioletred;
 }
 
-.a_class_git {
-    color: forestgreen;
+.allInfo, .name{
+  width: 50%;
+  margin: auto;
 }
 
- .a_class_git:hover {
-        color: black;
+.footerInfo{
+width: 50%;
+margin: auto;
+}
+
+.linksForInfo{
+  background: gray;  
+}
+
+.nameSurname{
+    color: white;
+    margin-left: 1.6em;
+}
+
+.sectionOfName{
+    display: inline-block;
+    margin-top: 1.2em;
+    font-size: 1.5em;
+    margin-right: 2em;
+}
+
+.descriptionOfName{
+     color: white;
+     font-size: 0.8em;
+     margin-left: 5em;
 }

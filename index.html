@@ -5,78 +5,98 @@
   <link rel =" stylesheet" href="Style.css" />
   <title>My CV</title>
 </head>
-<body class="body_class">
+<body>
   <header>
-    <h1 class="h1_class">CV</h1>
-  </header>
-  <nav>
-      <ul class = "nav_class">
-        <li class="li_class"><a href = "#Name" class="a_to_li"><article>Name</article></a></li>
-        <li class="li_class"><a href="#Summary" class="a_to_li"><article>Summary</article></a></li>
-        <li class="li_class"><a href="#Skills" class="a_to_li"><article>Skills</article></a></li>
-        <li class="li_class"><a href="#Experience" class="a_to_li"><article>Experience</article></a></li>
-        <li class="li_class"><a href="#Education" class="a_to_li"><article>Education</article></a></li>
-        <li class="li_class"><a href="#English_level" class="a_to_li"><article>English level</article></a></li>
+    <nav>
+      <ul>
+        <li class="menu"><a href = "#Name" class="linkToAnchor">Name</a></li>
+        <li class="menu"><a href="#Summary" class="linkToAnchor">Summary</a></li>
+        <li class="menu"><a href="#Skills" class="linkToAnchor">Skills</a></li>
+        <li class="menu"><a href="#Experience" class="linkToAnchor">Experience</a></li>
+        <li class="menu"><a href="#Education" class="linkToAnchor">Education</a></li>
+        <li class="menu"><a href="#EnglishLevel" class="linkToAnchor">English level</a></li>
+        <li class="menu"><a href="#Projects" class="linkToAnchor">Projects</a></li>
+        <li class="menu"><a href="#Contacts" class="linkToAnchor">Contacts</a></li>
       </ul>
-  </nav>
+    </nav>
+    <div class="name" id = "Name">
+    <section>
+      <img src="Id5KvUU7lG0[1].jpg" alt="My Photo" />
+    </section>
+    <section class="sectionOfName">
+      <article>
+<p class="nameSurname">Egor Popov</p>
+<p class="descriptionOfName">Beginner frontend developer</p>
+      </article>
+     </section>
+    </div>
+</header>
   <main>
-      <section>
-          <img src="Id5KvUU7lG0[1].jpg" class="img_class" alt = "My Photo"/>
-      </section>
-      <section class = "section_class" id="Name">
-        <article class="article_class">
-          <h4 class="h4_class">Name:</h4> <span class = "span_class_info"> Egor</span>
-        </article>
+    <div class="allInfo">
+      <section class="info " id="Summary">
         <article>
-            <h4 class="h4_class">Surname:</h4> <span class="span_class_info"> Popov</span>
+          <h4 >Summary:</h4> <span>
+I want to start working in the IT-sphere, because I believe that at the moment it is the best and demanded field. This
+is important for me, because I can gain invaluable experience in various projects, and thanks to this I will be able to
+learn a lot. To achieve this goal, I will use such qualities as the ability to learn quickly, the desire to learn
+something new and reach new heights.
+            </span>
         </article>
       </section>
-      <section class="section_class" id="Summary">
+      <section class="info " id="Skills">
         <article>
-          <h4 class="h4_class">Summary:</h4> <span class="span_class_info">
-                    I would like to work in EPAM, because I believe that this is the best company to
-                    start my career in the IT-sphere. This is important for me because I will be able
-                    to gain invaluable experience in various projects, and thanks to this I will be
-                    able to learn a lot. To achieve this goal, I will use such qualities as the ability to learn
-                    quickly, the desire to learn something new and reach new heights.
+            <h4 >Skills:</h4> <span>
+                    Beginner level of C++, C#, Java, SQL, HTML(5)/CSS(3), XML/XSLT,
+                    JavaScript + JQuery(+ some jquery UI) + React/Redux, Assembler, Git.
                 </span>
         </article>
       </section>
-      <section class="section_class" id="Skills">
-        <article>
-            <h4 class="h4_class">Skills:</h4> <span class="span_class_info">
-                    Beginner level of C++, C#, HTML(5)/CSS(3), XML/XSLT,
-                    JavaScript + JQuery(+ some jquery UI), Assembler, Git.
-                </span>
-        </article>
-      </section>
-      <section class="section_class" id="Experience">
+      <section class="info " id="Experience">
           <article>
-              <h4 class="h4_class">Experience:</h4> <span class="span_class_info">
-                      Writing University labs on various programming languages and markup :),
-                      task on javascript course from EPAM (link to GitHub at the bottom of the page).
+              <h4 >Experience:</h4> <span>
+                      Writing University labs on various programming languages and markup,
+                      tasks on javascript course from EPAM.
                   </span>
         </article>
       </section>
-      <section class="section_class" id="Education">
+      <section class="info " id="Education">
           <article>
-              <h4 class="h4_class">Education:</h4> <span class="span_class_info">
+              <h4 >Education:</h4> <span>
                       Gymnasium №31 of the city of Minsk;
-                      Belarusian state technological University, faculty of information technologies, software engineering (2 course)
+                      Belarusian state technological University, faculty of information technologies, software engineering (2 course);
+                      The Rolling Scopes School(2018-2019).
                   </span>
          </article>
       </section>
-      <section class="section_class" id="English_level">
+      <section class="info " id="EnglishLevel">
           <article>
-              <h4 class="h4_class">English level:</h4> <span class="span_class_info">
+              <h4 >English level:</h4> <span>
                       A2
                   </span>
          </article>
       </section>
+    <section id="Projects">
+      <h2 >Projects:</h2><br>
+      <li><a href = "https://github.com/MrLaPka/computer-language-PES-2018" target="_blank" class="projectLink">Computer language PES 2018</a></li>
+      <li><a href="https://mrlapka.github.io/game/" target="_blank" class="projectLink">Game</a></li>
+      <li><a href="https://github.com/MrLaPka/RSS-CJ-team-25" class="projectLink" target="_blank">ARCHI:TECT</a></li>
+      <li><a href="https://mrlapka.github.io/youtube/" class="projectLink" target="_blank">Youtube</a></li>
+      <li><a href="https://mrlapka.github.io/mentor_dashboard/" class="projectLink" target="_blank">Mentor dashboard</a></li>
+    </section>
+    </div>
   </main>
-  <footer class="footer_class">
-      <div class="div_class">Link to my vk: <a href = "https://vk.com/mr_lapka" target="_blank" class="a_class_vk">mr_lapka</a></div>
-      <div class="div_class">Link to my GitHub: <a href="https://github.com/MrLaPka" target="_blank" class="a_class_git">MrLaPka</a></div>
+  <footer id="Contacts">
+    <section class="linksForInfo">
+    <div class = "footerInfo">
+    <p>Contact me:</p>
+      <div class="linkToAuthor"><i class="fa fa-vk fa-2x"></i><a href = "https://vk.com/mr_lapka" target="_blank" class="link">mr_lapka</a></div>
+      <div class="linkToAuthor"><i class="fa fa-github fa-2x"></i><a href="https://github.com/MrLaPka" target="_blank" class="link">MrLaPka</a></div>
+      <div class="linkToAuthor"><i class="fa fa-phone fa-2x"></i><a href="tel: +375256223876" class="link">+37525622387</a></div>
+      <div class="linkToAuthor"><i class="fa fa-envelope fa-2x"></i><a href="mailto:lapkaparm@gmail.com" class="link">lapkaparm@gmail.com</a></div>
+    </div>
+    </section>
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="./index.js"></script>
 </body>
 </html>
