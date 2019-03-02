@@ -11,7 +11,7 @@ $(document).ready(function () {
     });
 
     $(window).scroll(() => {
-        if ($(this).scrollTop() > 90) {
+        if ($(this).scrollTop() > 50) {
             $('ul').css({
                 "margin-top": "0"
             }); 
